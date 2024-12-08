@@ -2,7 +2,22 @@ doctype html
 link(rel='stylesheet' href='css/style.css')
 
 head
-    title My First Full Stack
+    title Loaded Diapers  
 body
-    h1 Simple TODO APP
-    p TODO: Complete the app!
+    div.container
+    main
+        h1 LOAD YOUR DIAPERS
+        p ...dont actually poop your pants, this is just a todo list
+        form(action="#" method="POST")
+            label(for="todo") TODO: 
+            input(type="text" name="todo")
+            button.submit(type="submit") Load Diaper
+    
+        h1 LOADED DIAPER
+            ul
+                each val, index in tasks
+                    li
+                        form(action="/delete" method="POST")
+                            input(type="text" name="id" value=`${val}` hidden)
+                            p= `${index + 1}: ${val}`
+                            button(type="submit") Delete

@@ -1,16 +1,18 @@
 # Retrospective
 
-- name: Jane Doe
-- email: janedoe@u.boisestate.edu
+- name: Thart Htoo
+- email: tharhtoo@u.boisestate.edu
 
 ## Experience
 
-TODO
+lots of syntaxes to reread on and function calls/methods/etc... Finished this in the am with an hour before work, I dont have energy to leave
+a detailed retrospective
 
 ## Known issues or Bugs
 
-TODO
+hopefully none, website looks good - example code for pug file was buggy for me and rather trying to debug it I just tried using another method
 
 ## Sources used
 
-TODO
+zybooks
+https://www.w3schools.com/sql/default.asp - 

@@ -1,3 +1,17 @@
 body{
-    background-color: hotpink;
+    background-color: black;
+}
+
+main {
+    height: 1200px;
+    background: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/loaded-diaper-theresa-n-anderson.jpg");
+    color: red;
+}
+
+p {
+    font-size: 33px;
+}
+
+h1 {
+    font-size: 55px;
 }
